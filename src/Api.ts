@@ -1,4 +1,4 @@
-const BaseUrl = 'https://api.openweathermap.org/data/2.5/weather?lang=pt_br&units=metric&appid=2f6b4e93612f1f23d26034d8f5a049d4&q=' 
+const BaseUrl = 'https://api.openweathermap.org/data/2.5/weather?lang=pt_br&units=metric&appid={appid}&q=' 
 
 const apiFetchGet = async (BaseUrl: string, endpoint: string) => {
     try{
